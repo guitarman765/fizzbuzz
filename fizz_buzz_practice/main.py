@@ -9,7 +9,7 @@ def fizzbuzz():
     num3 = int(input("Please enter the second divisible number: "))
     wrd1 = input("Please enter the first divisible word: ")
     wrd2 = input("Please enter the second divisible word: ")
-    # NO or anything other than yes will revert to the default naming of wrd3 (concatenation of wrd1 and wrd2)
+    # NO or anything other than YES will revert to the default naming of wrd3 (concatenation of wrd1 and wrd2)
     user_choice = input("Do you want to make up the divisible by both word or default (YES or NO): ")
 
     # If user types "YES", program takes in their custom word for divisible by num2 and num3.
